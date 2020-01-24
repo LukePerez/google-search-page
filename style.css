@@ -1,0 +1,162 @@
+.wrapper {
+	display:grid;
+	grid-template-columns:300px 700px 300px;
+	grid-template-rows:50px 80px 300px 140px 140px 140px 140px 240px 140px 140px 140px 140px 140px 160px 140px 140px 140px 140px 400px 50px 80px;
+	grid-row-gap:5px;
+}
+#logo{
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:1;
+	grid-row-end:2;
+	justify-self:center;
+}
+#ggl {
+	height:30px;
+	width:90px;
+}
+#searchspot{
+	grid-row-start:2;
+	grid-row-end:3;
+	grid-column-start:2;
+	grid-column-end:3;
+	justify-self:start;
+}
+#srchbr{
+	width:400px;
+	border-radius:10px 0px 0px 0px;
+	padding:5px 10px;
+}
+#one{
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:3;
+	grid-row-end:4;
+	background-color:red;
+}
+#two{
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:4;
+	grid-row-end:5;
+	background-color:blue;
+}
+#three{
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:5;
+	grid-row-end:6;
+	background-color:green;
+}
+#four{
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:6;
+	grid-row-end:7;
+	background-color:yellow;
+}
+#five{
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:7;
+	grid-row-end:8;
+	background-color:orange;
+}
+#six{
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:8;
+	grid-row-end:9;
+	background-color:green;
+}
+#seven{
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:9;
+	grid-row-end:10;
+	background-color:red;
+}
+#eight{
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:10;
+	grid-row-end:11;
+	background-color:blue;
+}
+#nine{
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:11;
+	grid-row-end:12;
+	background-color:green;
+}
+#ten{
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:12;
+	grid-row-end:13;
+	background-color:yellow;
+}
+#eleven{
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:13;
+	grid-row-end:14;
+	background-color:purple;
+}
+#twelve{
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:14;
+	grid-row-end:15;
+	background-color:orange;
+}
+#thirteen{
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:15;
+	grid-row-end:16;
+	background-color:blue;
+}
+#fourteen{
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:16;
+	grid-row-end:17;
+	background-color:green;
+}
+#fifteen{
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:17;
+	grid-row-end:18;
+	background-color:pink;
+}
+#sixteen{
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:18;
+	grid-row-end:19;
+	background-color:red;
+}
+#seventeen{
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:19;
+	grid-row-end:20;
+	background-color:blue;
+}
+#eighteen{
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:20;
+	grid-row-end:21;
+	background-color:yellow;
+}
+#nineteen{
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:21;
+	grid-row-end:22;
+	background-color:green;
+}
