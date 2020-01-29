@@ -5,7 +5,7 @@ html{
 .wrapper {
 	display:grid;
 	grid-template-columns:300px 737px 300px;
-	grid-template-rows:50px 80px 300px 140px 140px 140px 140px 240px 140px 140px 140px 140px 140px 160px 140px 140px 140px 140px 400px 50px 80px;
+	grid-template-rows:50px 80px 300px 150px 140px 150px 140px 215px 125px 125px 140px 140px 130px 130px 140px 145px 340px 50px 80px;
 	grid-row-gap:5px;
 }
 #logo{
@@ -39,6 +39,7 @@ html{
 	border:1px solid #dbdbdb;
 	font-size:16px;
 	border-shadow:;
+	box-shadow:0 1px 6px rgba(32, 33, 36, 0.28);
 }
 #go{
 	grid-column-start:2;
@@ -52,6 +53,7 @@ html{
 	background-repeat:no-repeat;
 	background-position:center;
 	background-size:35px 35px;
+	box-shadow:0 1px 6px rgba(32, 33, 36, 0.28);
 }
 #btntabs {
 	display:grid;
@@ -63,6 +65,7 @@ html{
 	border-radius: 0px 0px 10px 10px;
 	font-size:12px;
 	line-height:37px;
+	box-shadow:0 1px 6px rgba(32, 33, 36, 0.28);
 }
 .btns {
 	color:#757575;
@@ -107,6 +110,18 @@ html{
 	grid-column-start:8;
 	grid-colum-end:9;
 }
+.line{
+	border-top:1px solid #dbdbdb;
+	border-bottom:0px;
+}
+.padder{
+	padding-left:16px;
+	padding-right:16px;
+	padding-top:12px;
+	padding-bottom:12px;
+	font-size:14px;
+	line-height:18px;
+}
 #one{
 	grid-column-start:2;
 	grid-column-end:3;
@@ -115,6 +130,10 @@ html{
 	background-color:white;
 	border:1px solid #dbdbdb;
 	border-radius:5px;
+	box-shadow:0 1px 6px rgba(32, 33, 36, 0.28);
+}
+.hotlinks{
+	font-size:16px;
 }
 #two{
 	grid-column-start:2;
@@ -124,6 +143,7 @@ html{
 	background-color:white;
 	border:1px solid #dbdbdb;
 	border-radius:5px;
+	box-shadow:0 1px 6px rgba(32, 33, 36, 0.28);
 }
 #three{
 	grid-column-start:2;
@@ -133,6 +153,7 @@ html{
 	background-color:white;
 	border:1px solid #dbdbdb;
 	border-radius:5px;
+	box-shadow:0 1px 6px rgba(32, 33, 36, 0.28);
 }
 #four{
 	grid-column-start:2;
@@ -142,6 +163,7 @@ html{
 	background-color:white;
 	border:1px solid #dbdbdb;
 	border-radius:5px;
+	box-shadow:0 1px 6px rgba(32, 33, 36, 0.28);
 }
 #five{
 	grid-column-start:2;
@@ -151,6 +173,7 @@ html{
 	background-color:white;
 	border:1px solid #dbdbdb;
 	border-radius:5px;
+	box-shadow:0 1px 6px rgba(32, 33, 36, 0.28);
 }
 #six{
 	grid-column-start:2;
@@ -160,6 +183,13 @@ html{
 	background-color:white;
 	border:1px solid #dbdbdb;
 	border-radius:5px;
+	box-shadow:0 1px 6px rgba(32, 33, 36, 0.28);
+}
+.rotate{
+	font-size:16px;
+	font-stretch:ultra-expanded;
+	color:grey;
+	float:right;
 }
 #seven{
 	grid-column-start:2;
@@ -169,6 +199,7 @@ html{
 	background-color:white;
 	border:1px solid #dbdbdb;
 	border-radius:5px;
+	box-shadow:0 1px 6px rgba(32, 33, 36, 0.28);
 }
 #eight{
 	grid-column-start:2;
@@ -178,6 +209,7 @@ html{
 	background-color:white;
 	border:1px solid #dbdbdb;
 	border-radius:5px;
+	box-shadow:0 1px 6px rgba(32, 33, 36, 0.28);
 }
 #nine{
 	grid-column-start:2;
@@ -187,6 +219,7 @@ html{
 	background-color:white;
 	border:1px solid #dbdbdb;
 	border-radius:5px;
+	box-shadow:0 1px 6px rgba(32, 33, 36, 0.28);
 }
 #ten{
 	grid-column-start:2;
@@ -196,6 +229,7 @@ html{
 	background-color:white;
 	border:1px solid #dbdbdb;
 	border-radius:5px;
+	box-shadow:0 1px 6px rgba(32, 33, 36, 0.28);
 }
 #eleven{
 	grid-column-start:2;
@@ -205,6 +239,7 @@ html{
 	background-color:white;
 	border:1px solid #dbdbdb;
 	border-radius:5px;
+	box-shadow:0 1px 6px rgba(32, 33, 36, 0.28);
 }
 #twelve{
 	grid-column-start:2;
@@ -214,6 +249,7 @@ html{
 	background-color:white;
 	border:1px solid #dbdbdb;
 	border-radius:5px;
+	box-shadow:0 1px 6px rgba(32, 33, 36, 0.28);
 }
 #thirteen{
 	grid-column-start:2;
@@ -223,6 +259,7 @@ html{
 	background-color:white;
 	border:1px solid #dbdbdb;
 	border-radius:5px;
+	box-shadow:0 1px 6px rgba(32, 33, 36, 0.28);
 }
 #fourteen{
 	grid-column-start:2;
@@ -232,8 +269,25 @@ html{
 	background-color:white;
 	border:1px solid #dbdbdb;
 	border-radius:5px;
+	box-shadow:0 1px 6px rgba(32, 33, 36, 0.28);
 }
-#fifteen{
+.longline{
+	width:104%; 
+	position:relative; 
+	left:-15px;
+	border-top:1px solid #dbdbdb;
+	border-bottom:0px;
+}
+#upfont{
+	font-size:16px;
+}
+.right{
+	font-size:16px;
+	font-stretch:ultra-expanded;
+	color:grey;
+	float:right;
+}
+#seventeen{
 	grid-column-start:2;
 	grid-column-end:3;
 	grid-row-start:17;
@@ -241,8 +295,19 @@ html{
 	background-color:white;
 	border:1px solid #dbdbdb;
 	border-radius:5px;
+	box-shadow:0 1px 6px rgba(32, 33, 36, 0.28);
 }
-#sixteen{
+.contn{
+	display:grid;
+	grid-template-columns:330px 55px 300px ;
+}
+#nxt{
+	color:grey;
+	justify-self:center;
+	grid-column-start:2;
+	grid-column-end:3;
+}
+#eighteen{
 	grid-column-start:2;
 	grid-column-end:3;
 	grid-row-start:18;
@@ -250,31 +315,22 @@ html{
 	background-color:white;
 	border:1px solid #dbdbdb;
 	border-radius:5px;
+	box-shadow:0 1px 6px rgba(32, 33, 36, 0.28);
 }
-#seventeen{
+#nineteen{
 	grid-column-start:2;
 	grid-column-end:3;
 	grid-row-start:19;
 	grid-row-end:20;
 	background-color:white;
-	border:1px solid #dbdbdb;
+	border:none;
 	border-radius:5px;
+	color:gray;
+	text-align:center;
+	font-size:14px;
 }
-#eighteen{
-	grid-column-start:2;
-	grid-column-end:3;
-	grid-row-start:20;
-	grid-row-end:21;
-	background-color:white;
-	border:1px solid #dbdbdb;
-	border-radius:5px;
-}
-#nineteen{
-	grid-column-start:2;
-	grid-column-end:3;
-	grid-row-start:21;
-	grid-row-end:22;
-	background-color:white;
-	border:1px solid #dbdbdb;
-	border-radius:5px;
-}
+
+
+
+
+
